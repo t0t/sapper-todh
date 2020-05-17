@@ -2,4 +2,8 @@
 	<title>XXXXX</title>
 </svelte:head>
 
-<h1>TODH!</h1>
+<h1>{name}</h1>
+
+<script>
+	let name = "T-O-D-H";
+</script>
