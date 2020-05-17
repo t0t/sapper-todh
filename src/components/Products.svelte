@@ -1,13 +1,13 @@
 <script>
 	import { onMount } from "svelte";
 
-    let photos = [];
+    let data = [];
     let productos = [];
 
 	onMount(async () => {
 		const res = await fetch("db.json");
-        photos = await res.json();
-        productos = photos.productos;
+        data = await res.json();
+        productos = data.productos;
         console.log(productos);
 	});
 </script>
