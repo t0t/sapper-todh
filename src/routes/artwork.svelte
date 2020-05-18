@@ -1,4 +1,10 @@
-<h1>TEST</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente incidunt animi non alias minus delectus pariatur fugiat? Possimus aliquam, nisi rem perspiciatis ullam, officia fuga doloribus facilis voluptatum illo aperiam!</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente incidunt animi non alias minus delectus pariatur fugiat? Possimus aliquam, nisi rem perspiciatis ullam, officia fuga doloribus facilis voluptatum illo aperiam!</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente incidunt animi non alias minus delectus pariatur fugiat? Possimus aliquam, nisi rem perspiciatis ullam, officia fuga doloribus facilis voluptatum illo aperiam!</p>
+<script>
+  import Button from "../components/atoms/Button.svelte";
+  import PageTitle from "../components/PageTitle.svelte";
+</script>
+
+<PageTitle title="Artwork" />
+
+<Button text="Call to action" />
+<Button text="Call to action 2" />
+

@@ -21,7 +21,7 @@
   }
 </style>
 
-<h1>Photo album</h1>
+<h2 class="col-tab-10">Photo album</h2>
 
 <div class="photos">
   {#each productos as producto}

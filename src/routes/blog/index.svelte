@@ -9,14 +9,15 @@
 </script>
 
 <script>
+  import PageTitle from "../../components/PageTitle.svelte";
   export let posts;
 </script>
 
 <svelte:head>
-  <title>Blog</title>
+  <title>TODH | Blog</title>
 </svelte:head>
 
-<h1>Recent posts</h1>
+<PageTitle title="Blog" />
 
 <ul>
   {#each posts as post}
