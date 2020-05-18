@@ -17,6 +17,7 @@ npx degit "sveltejs/sapper-template#rollup" my-app
 npx degit "sveltejs/sapper-template#webpack" my-app
 ```
 
+### Deployed on https://vercel.com/t0t/sapper-todh
 
 ### Using GitHub templates
 

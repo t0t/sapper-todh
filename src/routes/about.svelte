@@ -14,12 +14,7 @@
 </script>
 
 <style lang="scss">
-  @import "../styles/main.scss";
-  .fixed {
-    position: fixed;
-    top: 0;
-    font-size: 3em;
-  }
+
 </style>
 
 <svelte:head>
@@ -42,6 +37,7 @@
 <div class="fixed">{y}</div>
 <h1 style="
 transform: translate({y}px,0)
+rotate({y}deg)
 ">
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum soluta facilis,
   dolore dignissimos praesentium cumque repudiandae mollitia consequatur odit,

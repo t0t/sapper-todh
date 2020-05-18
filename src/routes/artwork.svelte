@@ -2,10 +2,3 @@
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente incidunt animi non alias minus delectus pariatur fugiat? Possimus aliquam, nisi rem perspiciatis ullam, officia fuga doloribus facilis voluptatum illo aperiam!</p>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente incidunt animi non alias minus delectus pariatur fugiat? Possimus aliquam, nisi rem perspiciatis ullam, officia fuga doloribus facilis voluptatum illo aperiam!</p>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente incidunt animi non alias minus delectus pariatur fugiat? Possimus aliquam, nisi rem perspiciatis ullam, officia fuga doloribus facilis voluptatum illo aperiam!</p>
-
-<style lang="scss">
-$base-color: red;
-p {
-    color: $base-color;
-}
-</style>
