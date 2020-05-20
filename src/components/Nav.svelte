@@ -1,8 +1,11 @@
 <script>
   export let segment;
+  let showMenu = true;
+  const toggleMenu = () => (showMenu = !showMenu);
 </script>
 
 <style lang="scss">
+  @import "../../styles/main.scss";
   [aria-current] {
     position: relative;
     display: inline-block;
@@ -17,37 +20,48 @@
     display: block;
     bottom: -1px;
   }
+  .toggle-button {
+    padding: $h-1;
+    width: $h3;
+    margin-right: $h2;
+  }
+
 </style>
 
-<nav class="SiteNav">
-  <ul>
-    <li>
-      <a aria-current={segment === undefined ? 'page' : undefined} href=".">
-        home
-      </a>
-    </li>
-    <li>
-      <a aria-current={segment === 'about' ? 'page' : undefined} href="about">
-        about
-      </a>
-    </li>
-    <li>
-      <a
-        aria-current={segment === 'artwork' ? 'page' : undefined}
-        href="artwork">
-        artwork
-      </a>
-    </li>
+{#if showMenu}
+  <button class="toggle-button" on:click={toggleMenu}>|||</button>
+{:else}
+  <nav class="SiteNav">
+    <ul>
+      <li>
+        <a on:click={toggleMenu} aria-current={segment === undefined ? 'page' : undefined} href=".">
+          Home
+        </a>
+      </li>
+      <li>
+        <a on:click={toggleMenu} aria-current={segment === 'about' ? 'page' : undefined} href="about">
+          About
+        </a>
+      </li>
+      <li>
+        <a on:click={toggleMenu}
+          aria-current={segment === 'artwork' ? 'page' : undefined}
+          href="artwork">
+          Artwork
+        </a>
+      </li>
 
-    <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-    <li>
-      <a
-        rel="prefetch"
-        aria-current={segment === 'blog' ? 'page' : undefined}
-        href="blog">
-        blog
-      </a>
-    </li>
-  </ul>
-</nav>
+      <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
+          the blog data when we hover over the link or tap it on a touchscreen -->
+      <li>
+        <a
+          rel="prefetch"
+          aria-current={segment === 'blog' ? 'page' : undefined}
+          href="blog">
+          Blog
+        </a>
+      </li>
+    </ul>
+  </nav>
+{/if}
+

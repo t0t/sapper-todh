@@ -2,9 +2,10 @@
   export let sitetitle;
 </script>
 
-<style>
+<style lang="scss">
+@import "../styles/main.scss";
   .SiteBrand {
-    /* text-align: center; */
+    padding-left: $h2;
   }
   svg {
     min-width: 30px;

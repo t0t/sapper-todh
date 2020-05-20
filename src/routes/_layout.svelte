@@ -3,6 +3,8 @@
   import SiteBrand from "../components/SiteBrand.svelte";
   import SiteFooter from "../components/SiteFooter.svelte";
   export let segment;
+  let active = "active";
+  let y=0;
 </script>
 
 <style lang="scss" global>
@@ -11,25 +13,26 @@
     position: fixed;
     top: 0;
   }
+  .active {
+    background-color: $light_grey;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
   header {
-    background-color: rgba($white, 0.8);
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: $h2;
-    @include padding-top(-2);
-    @include padding-bottom(-2);
-
-    nav {
-      align-self: center;
-    }
+    padding-top: $h2;
+    padding-bottom: $h2;
   }
   main {
     @include margin-top(3);
   }
 </style>
 
-<header class="fixed">
+<svelte:window bind:scrollY={y} />
+<header class:active={y > 100}>
 
   <SiteBrand sitetitle="TODH" />
 
@@ -37,7 +40,7 @@
 
 </header>
 
-<main class="grid">
+<main>
   <slot />
 </main>
 
