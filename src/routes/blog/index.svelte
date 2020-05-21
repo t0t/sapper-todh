@@ -1,6 +1,6 @@
 <script context="module">
   export function preload({ params, query }) {
-    return this.fetch(`blog.json`)
+    return this.fetch("blog.json")
       .then(r => r.json())
       .then(posts => {
         return { posts };
@@ -10,6 +10,7 @@
 
 <script>
   import PageTitle from "../../components/PageTitle.svelte";
+  import Content from "../../components/layouts/Content.svelte";
   export let posts;
 </script>
 
@@ -18,6 +19,10 @@
 </svelte:head>
 
 <PageTitle title="Blog" />
+<Content>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ullam incidunt beatae odit molestias pariatur non earum molestiae fuga, laborum accusantium facere libero, doloremque veniam, quod officiis eos impedit sint.</p>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ullam incidunt beatae odit molestias pariatur non earum molestiae fuga, laborum accusantium facere libero, doloremque veniam, quod officiis eos impedit sint.</p>
+</Content>
 
 <ul>
   {#each posts as post}

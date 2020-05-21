@@ -26,22 +26,14 @@
     padding-top: $h2;
     padding-bottom: $h2;
   }
-  main {
-    @include margin-top(3);
-  }
 </style>
 
 <svelte:window bind:scrollY={y} />
 <header class:active={y > 100}>
-
   <SiteBrand sitetitle="TODH" />
-
   <Nav {segment} />
-
 </header>
-
 <main>
   <slot />
 </main>
-
 <SiteFooter />

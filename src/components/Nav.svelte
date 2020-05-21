@@ -1,6 +1,6 @@
 <script>
   export let segment;
-  let showMenu = false;
+  let showMenu = true;
   const toggleMenu = () => (showMenu = !showMenu);
   let x = 0;
 </script>
@@ -37,9 +37,7 @@
 {#if x < 500}
   <button class="toggle-button" on:click={toggleMenu}>|||</button>
 {/if}
-{#if x > 500}
-{showMenu = true}
-{/if}
+
 
 {#if showMenu}
   <nav class="SiteNav">

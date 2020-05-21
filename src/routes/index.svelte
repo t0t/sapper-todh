@@ -1,6 +1,7 @@
 <script>
   import Products from "../components/Products.svelte";
   import PageTitle from "../components/PageTitle.svelte";
+  import Content from "../components/layouts/Content.svelte";
 </script>
 
 <svelte:head>
@@ -8,4 +9,7 @@
 </svelte:head>
 
 <PageTitle title="Wellcome"/>
-<Products />
+
+<Content>
+  <Products />
+</Content>

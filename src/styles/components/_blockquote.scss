@@ -4,7 +4,7 @@
     padding-left: $h2;
     border-left-color: $secondary;
     border-left-style: solid;
-    border-left-width: 2px;
+    border-left-width: $border_width_base;
     // width: 100%;
     @include margin-top(0);
     @include margin-bottom(2);

@@ -17,27 +17,15 @@
   }
 </script>
 
-<style>
-  article {
-    margin: 0 0 1em 0;
-    max-width: 800px;
-  }
-  h2,
-  p {
-    margin: 0 0 0.3em 0;
-  }
-  audio {
-    width: 100%;
-    margin: 0.5em 0 1em 0;
-    z-index: -1000;
-  }
+<style lang="scss">
+  @import "../styles/main.scss";
   .playing {
-    color: #ff3e00;
+    color: $secondary;
   }
 </style>
 
 <article class:playing={!paused}>
-  <h2>{title}</h2>
+  <h5>{title}</h5>
   <p>
     <strong>{composer}</strong>
     / performed by {performer}

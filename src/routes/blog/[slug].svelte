@@ -1,4 +1,6 @@
 <script context="module">
+  import Section from "../../components/layouts/Section.svelte";
+  import Content from "../../components/layouts/Content.svelte";
   export async function preload({ params, query }) {
     // the `slug` parameter is available because
     // this file is called [slug].svelte
@@ -57,8 +59,10 @@
   <title>{post.title}</title>
 </svelte:head>
 
-<h1>{post.title}</h1>
+<Section>
+  <h3>{post.title}</h3>
 
-<div class="content">
-  {@html post.html}
-</div>
+  <Content>
+    {@html post.html}
+  </Content>
+</Section>
