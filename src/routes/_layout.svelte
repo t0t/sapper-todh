@@ -4,7 +4,7 @@
   import SiteFooter from "../components/SiteFooter.svelte";
   export let segment;
   let active = "active";
-  let y=0;
+  let y = 0;
 </script>
 
 <style lang="scss" global>

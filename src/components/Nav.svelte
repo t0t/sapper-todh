@@ -1,7 +1,8 @@
 <script>
   export let segment;
-  let showMenu = true;
+  let showMenu = false;
   const toggleMenu = () => (showMenu = !showMenu);
+  let x = 0;
 </script>
 
 <style lang="scss">
@@ -25,26 +26,40 @@
     width: $h3;
     margin-right: $h2;
   }
-
+  .active {
+    background-color: red;
+  }
 </style>
 
-{#if showMenu}
+
+<svelte:window bind:innerWidth={x} />
+
+{#if x < 500}
   <button class="toggle-button" on:click={toggleMenu}>|||</button>
-{:else}
+{/if}
+{#if x > 500}
+{showMenu = true}
+{/if}
+
+{#if showMenu}
   <nav class="SiteNav">
     <ul>
       <li>
-        <a on:click={toggleMenu} aria-current={segment === undefined ? 'page' : undefined} href=".">
+        <a
+          aria-current={segment === undefined ? 'page' : undefined}
+          href=".">
           Home
         </a>
       </li>
       <li>
-        <a on:click={toggleMenu} aria-current={segment === 'about' ? 'page' : undefined} href="about">
+        <a
+          aria-current={segment === 'about' ? 'page' : undefined}
+          href="about">
           About
         </a>
       </li>
       <li>
-        <a on:click={toggleMenu}
+        <a
           aria-current={segment === 'artwork' ? 'page' : undefined}
           href="artwork">
           Artwork
@@ -64,4 +79,3 @@
     </ul>
   </nav>
 {/if}
-
