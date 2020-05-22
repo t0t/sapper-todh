@@ -7,9 +7,9 @@ describe('Sapper template app', () => {
 		cy.contains('h1', 'Great success!')
 	});
 
-	it('navigates to /about', () => {
-		cy.get('nav a').contains('about').click();
-		cy.url().should('include', '/about');
+	it('navigates to /todh', () => {
+		cy.get('nav a').contains('todh').click();
+		cy.url().should('include', '/todh');
 	});
 
 	it('navigates to /blog', () => {

@@ -51,9 +51,9 @@
       </li>
       <li>
         <a
-          aria-current={segment === 'about' ? 'page' : undefined}
-          href="about">
-          About
+          aria-current={segment === 'todh' ? 'page' : undefined}
+          href="todh">
+          TODH
         </a>
       </li>
       <li>

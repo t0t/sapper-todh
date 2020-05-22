@@ -131,5 +131,111 @@
       "thumb": "th-img9.jpg",
       "description": "100cm ø 2019"
     }
+  ],
+  "blog": [
+    {
+      "id": "1",
+      "name": "Vesica Holística",
+      "url": "info",
+      "imagen": "img/img11.jpg",
+      "thumb": "th-img11.jpg",
+      "description": "Arena negra del desierto y latex. 100cm ø 2019"
+    },
+    {
+      "id": "2",
+      "name": "Ondas de arena",
+      "url": "info",
+      "imagen": "img/img12.jpg",
+      "thumb": "th-img12.jpg",
+      "description": "Impresión 3D + Arena de desierto. 2020"
+    },
+    {
+      "id": "3",
+      "name": "Energía, frecuencia y vibración",
+      "url": "info",
+      "imagen": "img/img6.jpg",
+      "thumb": "img6.jpg",
+      "description": "Impresión 3D, resina Epoxi, gesso y arena. 2020"
+    },
+    {
+      "id": "4",
+      "name": "Ondas en pentágono",
+      "url": "info",
+      "imagen": "img/img2.jpg",
+      "thumb": "th-img2.jpg",
+      "description": "Prototipo Impresión 3D. 2020"
+    },
+    {
+      "id": "5",
+      "name": "Carta de ajuste espiritual",
+      "url": "info",
+      "imagen": "img/img4.jpg",
+      "thumb": "th-img4.jpg",
+      "description": "Prototipo impreso en 3D. 2020"
+    },
+    {
+      "id": "6",
+      "name": "Línea 31",
+      "url": "info",
+      "imagen": "img/img19.jpg",
+      "thumb": "th-img19.jpg",
+      "description": "100cm ø 2019"
+    },
+    {
+      "id": "7",
+      "name": "Línea 31",
+      "url": "info",
+      "imagen": "img/img10.jpg",
+      "thumb": "th-img10.jpg",
+      "description": "100cm ø 2019"
+    },
+    {
+      "id": "8",
+      "name": "Línea 31",
+      "url": "info",
+      "imagen": "img/img8.jpg",
+      "thumb": "th-img8.jpg",
+      "description": "100cm ø 2019"
+    },
+    {
+      "id": "9",
+      "name": "Línea 31",
+      "url": "info",
+      "imagen": "img/img16.jpg",
+      "thumb": "th-img16.jpg",
+      "description": "50cm ø 2019"
+    },
+    {
+      "id": "10",
+      "name": "Línea 31",
+      "url": "info",
+      "imagen": "img/img15.jpg",
+      "thumb": "th-img15.jpg",
+      "description": "100cm ø 2019"
+    },
+    {
+      "id": "11",
+      "name": "Línea 31",
+      "url": "info",
+      "imagen": "img/img18.jpg",
+      "thumb": "th-img18.jpg",
+      "description": "100cm ø 2019"
+    },
+    {
+      "id": "12",
+      "name": "Línea 31",
+      "url": "info",
+      "imagen": "img/img17.jpg",
+      "thumb": "th-img17.jpg",
+      "description": "100cm ø 2019"
+    },
+    {
+      "id": "13",
+      "name": "Línea 31",
+      "url": "info",
+      "imagen": "img/img9.jpg",
+      "thumb": "th-img9.jpg",
+      "description": "100cm ø 2019"
+    }
   ]
 }

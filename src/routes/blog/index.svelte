@@ -20,8 +20,7 @@
 
 <PageTitle title="Blog" />
 <Content>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ullam incidunt beatae odit molestias pariatur non earum molestiae fuga, laborum accusantium facere libero, doloremque veniam, quod officiis eos impedit sint.</p>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ullam incidunt beatae odit molestias pariatur non earum molestiae fuga, laborum accusantium facere libero, doloremque veniam, quod officiis eos impedit sint.</p>
+<p>En este espacio voy dando forma escrita a mis pensamientos.</p>
 </Content>
 
 <ul>
