@@ -50,8 +50,8 @@ const posts = [
     slug: "prototipado-holistico",
 	excerpt: "Te propongo una incursión más profunda, darle una vuelta de tuerca más a esta idea de molde original con el que se fabrican las cosas.",
 	html: `
-		<h3 class="col-desk-12 title">¿Qué es un prototipo?</h3>
-		<p class="col-desk-7 col-tab-8">
+		<h3 class="col-desk-12">¿Qué es un prototipo?</h3>
+		<p class="col-desk-12 col-tab-8">
 		  Según la Wikipedia es un
 		  <strong>primer ejemplar que se fabrica de una figura</strong>, un invento u
 		  otra cosa, y que sirve de modelo para fabricar otras iguales. Es el molde
@@ -59,15 +59,15 @@ const posts = [
 		  grado máximo las características principales de cierto tipo de cosas y puede
 		  representarlas.
 		</p>
-		<p class="col-desk-7 col-tab-8">
+		<p class="col-desk-12 col-tab-8">
 		  Estupenda definición ¿no?, te propongo una incursión más profunda, darle una
 		  vuelta de tuerca más a esta idea de "molde original con el que se fabrican"
 		  las cosas. Vayamos más al fondo de ésto. ¿puede existir un molde más
 		  original que la Creación? ¿Puede ser que el ser humano y las cosas que hace
 		  procedan de un molde prototípico anterior a él?
 		</p>
-		<h3 class="col-desk-12 title">El regreso a la Unidad</h3>
-		<p class="col-desk-7 col-tab-8">
+		<h3 class="col-desk-12">El regreso a la Unidad</h3>
+		<p class="col-desk-12 col-tab-8">
 		  Dicen que el verdadero viaje concluye sólo cuando vuelves a casa. En la
 		  mitología vemos al héroe siguiendo siempre un patrón circular. Pareciera que
 		  la plenitud, el grial, lo que sea que deseamos, no se encuentra en un punto
@@ -86,7 +86,7 @@ const posts = [
 		  marco claro de cómo puede ser ese modelo original anterior a todo y al que
 		  vovemos sin darnos cuenta cada vez que ideamos alguna cosa.
 		</p>
-		<div class="col-desk-5 col-desk-shift-1 col-tab-5 col-tab-shift-0 col-mob-4">
+		<div class="col-desk-10 col-tab-5 col-mob-4">
 		  <p>
 			El regreso a la Unidad se cumple en tanto un cierto patrón que yo denomino
 			<a
@@ -121,7 +121,7 @@ const posts = [
 			/><!---->
 		  </figure>
 		</div>
-		<div class="col-desk-7 col-tab-8">
+		<div class="col-desk-12 col-tab-8">
 		  <p>
 			Facil y sencillo ¿no? Pues sí, tanto que he tardado media vida en darme
 			cuenta de ello. Digamos que existen una infinidad de cosas que en esencia
@@ -134,7 +134,7 @@ const posts = [
 			cualidades inmanentes.
 		  </p>
 		</div>
-		<p class="col-desk-7 col-tab-8">
+		<p class="col-desk-12 col-tab-8">
 		  A medida que profundizamos en el 0,1,2,3,4 percibimos la realidad de un modo
 		  más simple y claro. Por ejemplo vemos que todo, incluído lo digital, nunca
 		  deja de ser analógico y que la analogía, es la forma natural en que las
@@ -146,7 +146,7 @@ const posts = [
 		  puntiaguda. Podríamos decir que la mente abstracta tiene la cualidad de
 		  percibir un orden inmanente en las cosas.
 		</p>
-		<p class="col-desk-7 col-tab-8">
+		<p class="col-desk-12 col-tab-8">
 		  Cuando el programador escribe código está usando analogías, al igual que el
 		  poeta, porque todo lenguaje es simbólico y se construye con metáforas.
 		  Nuestro prototipo es una analogía, y será más o menos coherente en la medida
@@ -154,20 +154,20 @@ const posts = [
 		  mismo "logos" o "razón" las relaciona, como contaban ya los antiguos griegos
 		  y como se redescubrió durante el Renacimiento.
 		</p>
-		<p class="col-desk-7 col-tab-8">
+		<p class="col-desk-12 col-tab-8">
 		  Así que <strong>creemos que creamos cosas</strong>, cuando en realidad todo
 		  está inserto en un orden mayor con exactamente los mismos elementos
 		  constitutivos y tiende a resonar con ello.
 		</p>
-		<p class="col-desk-7 col-tab-8">
+		<p class="col-desk-12 col-tab-8">
 		  A medida en que uno va incursionando en esta percepción deja de interesarle
 		  reinventar la rueda y se le hace más atractivo simplemente observar y
 		  maravillarse ante su funcionamiento.
 		</p>
-		<h3 class="col-desk-12 title">
+		<h3 class="col-desk-12">
 		  Bajo un paradigma funcional sistémico y vivo
 		</h3>
-		<p class="col-desk-7 col-tab-8">
+		<p class="col-desk-12 col-tab-8">
 		  Un prototipo, por lo tanto, no es sólo una herramienta transitoria para algo
 		  que ha de venir en el futuro, sino que es ya de algún modo ese "algo"
 		  latente que andamos buscando (en potencia y en esencia) y tiene
@@ -179,7 +179,7 @@ const posts = [
 		  fundiéndose con aquello que pretende representar hasta el punto de que no
 		  podemos apenas advertir la diferencia.
 		</p>
-		<p class="col-desk-7 col-tab-8">
+		<p class="col-desk-12 col-tab-8">
 		  El cuerpo humano, sin ir más lejos, guarda proporciones numéricas 1:1.618...
 		  llevamos el número Phi incorporado! El crecimiento de la concha de un
 		  molusco sigue la serie Fibonacci y tantos ejemplos... sin embargo parece que
@@ -187,7 +187,7 @@ const posts = [
 		  inmersos en un individualismo alienante y voraz bajo la batuta de nuestra
 		  pobre mente concreta.
 		</p>
-		<p class="col-desk-7 col-tab-8">
+		<p class="col-desk-12 col-tab-8">
 		  El ser humano se ha especializado en construir objetos, básicamente eso es
 		  lo que hace, unos son físicos y otros digitales pero todos análogos, y
 		  además "co-herentes" (o deberían serlo). Asi que si nuestro objeto procede
@@ -200,13 +200,13 @@ const posts = [
 		  ideas pero sobretodo de experiencias personales en el ambito de lo artístico
 		  y, como no, en el mundo del diseño/desarrollo web.
 		</p>
-		<p class="col-desk-7 col-tab-8">
+		<p class="col-desk-12 col-tab-8">
 		  Ahora me voy a poner más técnico, voy a hablar de cómo estoy construyendo
 		  este prototipo web en el que estás y cómo desde mi punto de vista es un
 		  prototipo holístico.
 		</p>
-		<h3 class="col-desk-12 title">Prototipando webs reales</h3>
-		<p class="col-desk-7 col-tab-8">
+		<h3 class="col-desk-12">Prototipando webs reales</h3>
+		<p class="col-desk-12 col-tab-8">
 		  Existen numerosos enfoques dentro del mundo del prototipado web y, en mi
 		  opinión, cuanto más cerca esté nuestro diseño del medio en el que se va a
 		  desenvolver más válido será. Si tomamos la naturaleza como la fábrica de
@@ -217,7 +217,7 @@ const posts = [
 		  uno real, listo para ser lanzado, listo para funcionar, preparado para
 		  fallar y aprender rápido.
 		</p>
-		<div class="col-desk-7 col-tab-8">
+		<div class="col-desk-12 col-tab-8">
 		  <p>
 			"Derroche" y "economía" son dos conceptos paradógicos que a mi modo de
 			entender van juntos. Si algo puede ser eliminado entonces tal vez merece
@@ -235,7 +235,7 @@ const posts = [
 			<small>Stephen Covey</small>
 		  </blockquote>
 		</div>
-		<p class="col-desk-7 col-tab-8">
+		<p class="col-desk-12 col-tab-8">
 		  Con unas pocas lineas de Javascript puedes dotar la UI de tu proyecto de
 		  toda la interacción necesaria para explicar tu mensaje, no necesitas siempre
 		  instalar plugins de terceros, con unos pocos mixins puedes tener todo un
@@ -246,7 +246,7 @@ const posts = [
 		  pero uno agnóstico y progresivo como Vue, que sea flexible, lo más agnóstico
 		  posible y con una curva de aprendizaje rápida.
 		</p>
-		<p class="col-desk-7 col-tab-8">
+		<p class="col-desk-12 col-tab-8">
 		  Este sitio web está creado así. Es ligero pero facilmente escalable. El
 		  modelo de datos, la lógica y los contenidos están separados. Los textos y
 		  las fotos son consumidos como si se tratara de un Web Service o API REST, en
@@ -258,7 +258,7 @@ const posts = [
 		  todo lo que tienen proyectos mucho más grandes pero sin consumir apenas
 		  recursos. Simplemente funciona.
 		</p>
-		<div class="col-desk-7 col-tab-8">
+		<div class="col-desk-12 col-tab-8">
 		  <p>
 			Ejemplo de cómo aplico el alto de linea y tamaño de fuente para los
 			diferentes breakpoints:
@@ -285,7 +285,7 @@ const posts = [
 		  </code>
 		</pre>
 		</div>
-		<div class="col-desk-7 col-tab-8">
+		<div class="col-desk-12 col-tab-8">
 		  <p>Consumimos datos de nuestra API particular:</p>
 		  <pre>    <code>
 			<em>// Vue + Axios</em>

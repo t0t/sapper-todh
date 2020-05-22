@@ -1,5 +1,4 @@
 <script context="module">
-  import Section from "../../components/layouts/Section.svelte";
   import Content from "../../components/layouts/Content.svelte";
   import PageTitle from "../../components/PageTitle.svelte";
   export async function preload({ params, query }) {

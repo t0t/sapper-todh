@@ -1,4 +1,5 @@
 <script>
+ 
   export let segment;
   let showMenu = true;
   const toggleMenu = () => (showMenu = !showMenu);
@@ -12,12 +13,12 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: $h2;
-}
-.SideNav {
-  a {
-    color: $primary;
   }
-}
+  .SideNav {
+    a {
+      color: $primary;
+    }
+  }
   [aria-current] {
     position: relative;
     display: inline-block;
@@ -45,22 +46,23 @@
 <svelte:window bind:innerWidth={x} />
 
 {#if showMenu}
-  <a class="toggle-button" 
-  on:click={toggleMenu}
-  alt="Menu button"
-  >🍔</a>
+  <a class="toggle-button" on:click={toggleMenu} alt="Menu button">🍔</a>
 {:else}
   <nav class="SiteNav">
     <ul>
       <li>
         <a
-          on:click={toggleMenu} aria-current={segment === undefined ? 'page' : undefined} href=".">
+          on:click={toggleMenu}
+          aria-current={segment === undefined ? 'page' : undefined}
+          href=".">
           Home
         </a>
       </li>
       <li>
         <a
-          on:click={toggleMenu} aria-current={segment === 'todh' ? 'page' : undefined} href="todh">
+          on:click={toggleMenu}
+          aria-current={segment === 'todh' ? 'page' : undefined}
+          href="todh">
           TODH
         </a>
       </li>
