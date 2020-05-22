@@ -1,5 +1,4 @@
 <script>
-  export let title = "titulo";
   let y = 0;
 </script>
 
@@ -10,11 +9,11 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    flex-direction: column;
     width: 100%;
     background-color: $light_grey;
-    @include padding-top(2);
-    @include padding-bottom(2);
+    @include padding-top(3);
+    @include padding-bottom(4);
   }
   .PageTitle {
     @include media(s1) {
@@ -27,5 +26,9 @@
 <header
   class="PageTitleContainer"
   style=" opacity: {1 - Math.max(0, y / 40)}; ">
-  <h1 class="PageTitle">{title}</h1>
+  <hgroup class="text-center">
+    <slot name="pagetitle" />
+    <slot name="subtitle" />
+    <slot name="extratitle" />
+  </hgroup>
 </header>

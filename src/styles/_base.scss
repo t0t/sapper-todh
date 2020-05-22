@@ -19,12 +19,25 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+article {
+  @include padding-top(2);
+}
+*:focus {
+  background-color: $light_grey;
+	  outline: none;
+}
 a {
-  color: $secondary;
+  // color: $secondary;
+  text-decoration: none;
+  transition: all .4s linear;
+  
+  &:focus {
+    outline: color blue 5px;
+  }
+
 }
 
-p, button {
+p {
   @include margin-bottom(1);
   @include media(s0) {
     @include type-setting(0);

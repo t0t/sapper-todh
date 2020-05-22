@@ -1,4 +1,23 @@
 // Buttons
+button {
+  border: none;
+  @include margin-bottom(1);
+  @include media(s0) {
+    @include type-setting(0);
+  }
+  @include media(s1) {
+    @include type-setting(0);
+  }
+  @include media(s2) {
+    @include type-setting(0);
+  }
+  @include media(s3) {
+    @include type-setting(1);
+  }
+  @include media(s4) {
+    @include type-setting(2);
+  }
+}
 .ButtonDefault {
     background-color: inherit;
     border: none;

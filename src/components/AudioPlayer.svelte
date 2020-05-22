@@ -19,17 +19,25 @@
 
 <style lang="scss">
   @import "../styles/main.scss";
+    small {
+      padding-bottom: 0;
+      color: $alpha_grey;
+    }
   .playing {
     color: $secondary;
+    display: flex;
+  }
+  div {
+    display: flex;
+    justify-content: center;
   }
 </style>
 
-<article class:playing={!paused}>
-  <h5>{title}</h5>
-  <p>
+<div class:playing={!paused}>
+  <small>{title} <br>
     <strong>{composer}</strong>
     / performed by {performer}
-  </p>
+  </small>
 
   <audio bind:this={audio} bind:paused on:play={stopOthers} controls {src} />
-</article>
+</div>

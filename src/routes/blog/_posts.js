@@ -11,7 +11,8 @@ const posts = [
   {
     title: "Trinidad Holística",
     slug: "trinidad-holistica",
-    html: `
+	excerpt: "El arte de la relación o el bucle infinito",
+	html: `
 
 			<h3>👉 El arte de la relación o el bucle infinito</h3>
 			<p>El retorno a la Unidad, cómo las cosas se mueven y se relacionan entre sí describiendo un viaje dimensional es algo que me ha obsesionado ésta última etapa de mi vida.</p>
@@ -47,7 +48,8 @@ const posts = [
   {
     title: "Prototipado Holístico",
     slug: "prototipado-holistico",
-    html: `
+	excerpt: "Te propongo una incursión más profunda, darle una vuelta de tuerca más a esta idea de molde original con el que se fabrican las cosas.",
+	html: `
 		<h3 class="col-desk-12 title">¿Qué es un prototipo?</h3>
 		<p class="col-desk-7 col-tab-8">
 		  Según la Wikipedia es un
@@ -308,7 +310,8 @@ const posts = [
   {
     title: "Why the name?",
     slug: "why-the-name",
-    html: `
+	excerpt: "jdlsahdlufganilsfungskufgnsk",
+	html: `
 			<p>In war, the soldiers who build bridges, repair roads, clear minefields and conduct demolitions — all under combat conditions — are known as <em>sappers</em>.</p>
 
 			<p>For web developers, the stakes are generally lower than those for combat engineers. But we face our own hostile environment: underpowered devices, poor network connections, and the complexity inherent in front-end engineering. Sapper, which is short for <strong>S</strong>velte <strong>app</strong> mak<strong>er</strong>, is your courageous and dutiful ally.</p>
@@ -318,7 +321,8 @@ const posts = [
   {
     title: "How is Sapper different from Next.js?",
     slug: "how-is-sapper-different-from-next",
-    html: `
+	excerpt: "jdlsahdlufganilsfungskufgnsk",
+	html: `
 			<p><a href='https://github.com/zeit/next.js'>Next.js</a> is a React framework from <a href='https://vercel.com/'>Vercel</a>, and is the inspiration for Sapper. There are a few notable differences, however:</p>
 
 			<ul>
@@ -333,7 +337,8 @@ const posts = [
   {
     title: "How can I get involved?",
     slug: "how-can-i-get-involved",
-    html: `
+	excerpt: "jdlsahdlufganilsfungskufgnsk",
+	html: `
 			<p>We're so glad you asked! Come on over to the <a href='https://github.com/sveltejs/svelte'>Svelte</a> and <a href='https://github.com/sveltejs/sapper'>Sapper</a> repos, and join us in the <a href='https://svelte.dev/chat'>Discord chatroom</a>. Everyone is welcome, especially you!</p>
 		`,
   },

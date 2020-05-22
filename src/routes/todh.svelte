@@ -14,7 +14,10 @@
   <title>Qué es TODH</title>
 </svelte:head>
 
-<PageTitle title="T-O-D-H" />
+<PageTitle>
+  <h1 slot="pagetitle">T-O-D-H</h1>
+  <h2 slot="subtitle">Matriz holística de la Creación</h2>
+</PageTitle>
 
 <Content>
   <div class="col-desk-8 col-tab-10">

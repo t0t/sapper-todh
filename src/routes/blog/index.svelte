@@ -18,19 +18,19 @@
   <title>TODH | Blog</title>
 </svelte:head>
 
-<PageTitle title="Blog" />
-<Content>
-<p>En este espacio voy dando forma escrita a mis pensamientos.</p>
-</Content>
+<PageTitle>
+  <h1 slot="pagetitle">Blog</h1>
+  <h2 slot="subtitle">Arte, desarrollo web y filosofía</h2>
+  <!-- <h4 slot="extratitle"></h4> -->
+</PageTitle>
 
-<ul>
+<div class="grid">
   {#each posts as post}
-    <!-- we're using the non-standard `rel=prefetch` attribute to
-				tell Sapper to load the data for the page as soon as
-				the user hovers over the link or taps it, instead of
-				waiting for the 'click' event -->
-    <li>
-      <a rel="prefetch" href="blog/{post.slug}">{post.title}</a>
-    </li>
+    <article class="col-desk-6">
+      <a rel="prefetch" href="blog/{post.slug}">
+        <h3>{post.title}</h3>
+        <p>{post.excerpt}</p>
+      </a>
+    </article>
   {/each}
-</ul>
+</div>

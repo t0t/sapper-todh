@@ -8,17 +8,18 @@
   import List from "../components/molecules/List.svelte";
 </script>
 
-<PageTitle title="Artwork" />
+<PageTitle>
+  <h1 slot="pagetitle">Obra plástica</h1>
+  <h2 slot="subtitle">Emoción cristalizada</h2>
+</PageTitle>
 
 <Content>
   <div class="col-desk-6 col-tab-5 col-mob-4">
-    <Figure src="img/detalle1.jpg" alt="Alt de imagen" caption="Descripción" />
+    <Figure src="img/detalle1.jpg" alt="Alt de imagen" caption="Estudio" />
   </div>
 
   <div class="col-desk-6 col-tab-5 col-mob-4">
-    <p>
-      En este espacio voy mostrando mi obra plástica.
-    </p>
+    <p>En este espacio voy mostrando mi obra plástica.</p>
     <Button text="Call to action" />
     <Button text="Call to action 2" />
   </div>

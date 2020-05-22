@@ -1,5 +1,5 @@
 <script>
-  import Nav from "../components/Nav.svelte";
+  import SiteNav from "../components/SiteNav.svelte";
   import SiteBrand from "../components/SiteBrand.svelte";
   import SiteFooter from "../components/SiteFooter.svelte";
   export let segment;
@@ -9,29 +9,26 @@
 
 <style lang="scss" global>
   @import "./styles/main.scss";
-  .fixed {
-    position: fixed;
-    top: 0;
-  }
   .active {
-    background-color: $light_grey;
     position: fixed;
     top: 0;
     z-index: 1;
+    background-color: $alpha_white;
   }
   header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
-    padding-top: $h2;
-    padding-bottom: $h2;
+    height: 70px;
+    background-color: $light_grey;
   }
 </style>
 
 <svelte:window bind:scrollY={y} />
 <header class:active={y > 100}>
   <SiteBrand sitetitle="TODH" />
-  <Nav {segment} />
+  <SiteNav {segment} />
 </header>
 <main>
   <slot />
