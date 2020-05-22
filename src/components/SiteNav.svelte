@@ -45,7 +45,10 @@
 <svelte:window bind:innerWidth={x} />
 
 {#if showMenu}
-  <a class="toggle-button" on:click={toggleMenu}>🍔</a>
+  <a class="toggle-button" 
+  on:click={toggleMenu}
+  alt="Menu button"
+  >🍔</a>
 {:else}
   <nav class="SiteNav">
     <ul>
