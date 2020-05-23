@@ -1,3 +1,4 @@
+import json from '@rollup/plugin-json';
 import resolve from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 import commonjs from '@rollup/plugin-commonjs';
@@ -32,6 +33,7 @@ export default {
 				'process.browser': true,
 				'process.env.NODE_ENV': JSON.stringify(mode)
 			}),
+			json(),
 			svelte({
 				dev,
 				hydratable: true,
@@ -73,6 +75,7 @@ export default {
 		input: config.server.input(),
 		output: config.server.output(),
 		plugins: [
+			json(),
 			replace({
 				'process.browser': false,
 				'process.env.NODE_ENV': JSON.stringify(mode)
@@ -104,6 +107,7 @@ export default {
 				'process.env.NODE_ENV': JSON.stringify(mode)
 			}),
 			commonjs(),
+			json(),
 			!dev && terser()
 		],
 

@@ -65,8 +65,8 @@
 
       <TabPanel>
         <p>
-          Pasión por el diseño front-end, concretamente por: Html, Css/Sass,
-          Svelte/Sapper, Git
+          Pasión por el diseño y prototipado UI en el front-end. Avido consumidor de servicios API y fiel aférrimo de las bases de la web: Html, Css/Sass,
+          Svelte/Sapper y Git.
         </p>
 
         <pre class="language-html">

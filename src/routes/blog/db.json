@@ -1,0 +1,27 @@
+{
+    "posts": [
+      {
+        "id": "11",
+        "slug": "trinidad-holistica",
+        "excerpt": "trinidad-holistica",
+        "title": "Trinidad Holística",
+        "url": "info",
+        "imagen": "img/img11.jpg",
+        "thumb": "th-img11.jpg",
+        "description": "Arena negra del desierto y latex. 100cm ø 2019",
+        "content": "<strong>cc</strong> derv erv erv <br>eve <em>Lo más importante en la vida es que lo más <a href='/'>importante</a> sea lo más importante</em> werv e verv werv er verwv  werv werv <italic>vewr</italic>"
+      },
+      {
+        "id": "2",
+        "slug": "prototipado-holistico",
+        "excerpt": "prototipado-holistico",
+        "title": "Prototipado Holístico",
+        "url": "info",
+        "imagen": "img/img12.jpg",
+        "thumb": "th-img12.jpg",
+        "description": "Impresión 3D + Arena de desierto. 2020",
+        "content": "Impresión 3D + Arena de desierto. 2020"
+      }
+    ]
+  }
+  
